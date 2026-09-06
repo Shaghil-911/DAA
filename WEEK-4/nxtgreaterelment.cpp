@@ -9,7 +9,7 @@ int main(){
 	cout<<"\n enter elements :\n";
 	for(i=0;i<n;i++){
 		cin>>a[i];
-	
+	}
 	stack<int>st;
 	for(i=n-1;i>=0;i--){
 		while(!st.empty()&&st.top()<=a[i]){
@@ -25,5 +25,4 @@ int main(){
 		cout<<"\n "<<b[i]<<" ";
 	}
 	return 0;
-	}
 }
