@@ -22,7 +22,7 @@ int main (){
 		cin>>arr[i];
 	}
 	int target;
-	count<<"enter the target:"
+	count<<"enter the target:";
 	cin>>target;
 	vector<int> result = twosum(arr,target);
 	if(!result.empty()){
